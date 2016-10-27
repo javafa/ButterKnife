@@ -1,14 +1,15 @@
 # ButterKnife
-<pre>
+
 1. in Activity  
+```java
 	protected void onCreate(Bundle savedInstanceState) {  
 		super.onCreate(savedInstanceState);  
 		setContentView(R.layout.activity_main);  
 		ButterKnife.bind(this);  
 	}  
-  
+```
 2. in Fragment  
-  
+```java
 	public class FancyFragment extends Fragment {  
 		@BindView(R.id.button1)  
 		Button button1;  
@@ -24,10 +25,10 @@
 			return view;  
 		}  
 	}  
-  
+```
    
 3. in ViewHolder  
-  
+```java
 	public class MyAdapter extends BaseAdapter {  
 		@Override  
 		public View getView(int position, View view, ViewGroup parent) {  
@@ -54,4 +55,4 @@
 			}  
 		}  
 	}  
-</pre>
+```
