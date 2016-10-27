@@ -1,5 +1,5 @@
 # ButterKnife
-
+<pre>
 1. in Activity  
 	protected void onCreate(Bundle savedInstanceState) {  
 		super.onCreate(savedInstanceState);  
@@ -54,4 +54,4 @@
 			}  
 		}  
 	}  
-
+</pre>
